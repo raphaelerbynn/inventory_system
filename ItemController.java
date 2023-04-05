@@ -93,4 +93,8 @@ public class ItemController {
         }
         return total;
     }
+
+    public void getAllItems(Item item) {
+        
+    }
 }
