@@ -7,9 +7,9 @@ public class Database {
     public static Connection getConnection() {
         try{
             if (connection == null) {
-                String url = "jdbc:mysql://localhost:3306/inventory_db";
-                String username = "root";
-                String password = "admin";
+                String url = "";
+                String username = "";
+                String password = "";
                 connection = DriverManager.getConnection(url, username, password);
                 System.out.println("Database connected");
             }
